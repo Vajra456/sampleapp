@@ -1,0 +1,32 @@
+{
+  "namespace": "in.net.sampleapp.model.event",
+  "type" : "record",
+  "name" : "WorkflowEvent",
+  "fields" : [
+    {
+      "name" : "refId",
+      "type" : "string",
+      "avro.java.string": "String"
+    },
+    {
+      "name" : "sid",
+      "type" : "string",
+      "avro.java.string": "String"
+    },
+    {
+      "name" : "uid",
+      "type" : "string",
+      "avro.java.string": "String"
+    },
+    {
+      "name" : "bitmapIndex",
+      "type" : "string",
+      "avro.java.string": "String"
+    },
+    {
+      "name" : "toa",
+      "type" : "string",
+      "avro.java.string": "String"
+    }
+  ]
+}
